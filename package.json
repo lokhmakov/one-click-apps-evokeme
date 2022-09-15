@@ -4,7 +4,8 @@
   "description": "One Click App Repository for CapRover",
   "scripts": {
     "build": "rimraf ./dist && node ./scripts/build-one-click-apps.js && node ./scripts/build-one-click-apps-from-v4.js",
-    "validate": "node ./scripts/validate-apps.js"
+    "validate": "node ./scripts/validate-apps.js",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
@@ -20,6 +21,7 @@
     "fs-extra": "^10.1.0",
     "gh-pages": "^4.0.0",
     "prettier": "^2.0.5",
+    "rimraf": "^3.0.2",
     "yaml": "^1.10.0"
   }
 }
