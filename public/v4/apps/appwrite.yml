@@ -1119,7 +1119,7 @@ caproverOneClickApp:
     variables:
         - label: Version
           description: Application version
-          defaultValue: '0.13'
+          defaultValue: '1.0.1'
           id: $$cap_APP_VERSION
 
         # general
