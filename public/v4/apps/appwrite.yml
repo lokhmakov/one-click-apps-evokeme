@@ -1328,7 +1328,7 @@ caproverOneClickApp:
           defaultValue:
           id: $$cap_DOCKERHUB_PULL_EMAIL
 
-    displayName: Appwrite
+    displayName: Appwrite (EvokeMe)
     isOfficial: true
     description: Secure Open-Source Backend Server for Web, Mobile & Flutter Developers
     documentation: https://appwrite.io/docs
